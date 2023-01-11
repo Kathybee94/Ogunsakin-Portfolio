@@ -1,0 +1,1070 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- Meta tags for Google searches -->
+		<meta name="description" content="Ogunsakin Anthony is a Data Scientist and Business Analyst">
+		<meta name="keywords" content="ColdFusion Development, web design, web development, ColdFusiion Hawaii, Web Development Hawaii">
+		<meta name="rating" content="general">
+		<meta name="copyright" content="Copyright ©2022">
+		<meta name="revisit-after" content="1 Days">
+		<meta name="expires" content="never">
+		<meta name="distribution" content="global">
+		<meta name="robots" content="index,follow">
+   
+		<!-- Google Maps-->
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCABUipchxBy5ubGg0ajToD30sX9KhcCBQ&callback=initMap"></script>
+
+
+		<!-- TITLE OF SITE -->
+		<title>My Portfolio</title>
+
+	    <!-- favicon -->
+	    <link id="favicon" rel="icon" type="image/jpg" href="{% static 'portapp/images/post1.jpg' %}">
+
+        <!-- Google Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900%7CPoppins:300,400,500,600&display=swap">
+
+        <!-- Bootstrap css -->
+		<link rel="stylesheet" href="{% static 'portapp/css/bootstrap.css' %}">
+
+        <!-- splitlayout.css -->
+        <link rel="stylesheet" href="{% static 'portapp/css/animations.css' %}">
+
+        <!-- slick css -->
+        <link rel="stylesheet" href="{% static 'portapp/css/slick.css' %}">
+        <link rel="stylesheet" href="{% static 'portapp/css/slick-theme.css' %}">
+
+        <!-- magnific-popup.css -->
+        <link rel="stylesheet" href="{% static 'portapp/css/magnific-popup.css' %}">
+
+        <!-- font-awesome.min.css -->
+        <link rel="stylesheet" href="{% static 'portapp/css/font-awesome.min.css' %}">
+        <link rel="stylesheet" href="{% static 'portapp/css/pe-icon-7-stroke.min.css' %}">
+
+        <!-- Main style css -->
+		<link rel="stylesheet" href="{% static 'portapp/css/style.css' %}">
+
+        <!-- Responsive css -->
+        <link rel="stylesheet" href="{% static 'portapp/css/responsive.css' %}">
+
+        <!-- Main Color -->
+        <link rel="stylesheet" href="{% static 'portapp/css/color.css' %}">
+
+        
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        
+	</head>
+
+	<body class="small_menu">
+		<div id="page" class="site">
+
+
+		    <div id="splitlayout" class="splitlayout close-right">
+				<div class="intro">
+					    
+	                <div class="side side-left" style="background-image: url({% static 'portapp/images/counters-bg.jpg' %});">
+					    <!--Start Home-->
+					    <div class="home_type full-height home__menu">
+					        <div class="overlayer text-center">
+					        	<div class="container">
+						            <div class="display-table">
+						                <div class="display-table-cell">
+						                    <h1 class="fit__text">I'm <span id="typed"></span></h1>
+						                    <div id="typed-strings">
+												<span>OGUNSAKIN ANTHONY</span>
+								    			<span>A DATA SCIENTIST AND A BUSINESS ANALYST </span>
+								    		</div>
+						                    <div class="more_info">
+												<a href="{% url 'portpp:download' %}" target="_self" class="bgColor">download CV</a>
+											</div><!--.more_info-->
+						                </div><!--.display-table-cell-->
+						            </div><!--.display-table-->
+					            </div>
+					        </div><!--.overlayer-->
+					    </div><!--.home_type-->
+					    <!--End Home-->
+					</div><!--.side-->                
+					
+					
+
+	                <!--Start Menu-->
+	                <div class="mob-menu-overlay"></div>
+	                <div class="mob-menu">
+	                    <div class="mob-menu-content">
+	                        <div class="float-left">
+	                            <h3 class="menu-title">
+	                            	<a href="#">Ogunsakin Anthony</a>
+	                            </h3>
+	                        </div>
+	                        <div class="float-right">
+	                            <button type="button" class="navbar-toggle collapsed">
+	                                <span class="sr-only">Toggle navigation</span>
+	                                <span class="icon-bar"></span>
+	                                <span class="icon-bar"></span>
+	                                <span class="icon-bar"></span>
+	                            </button>
+	                        </div>
+	                    </div>
+	                </div>
+
+					<div class="side side-right">
+						<div class="intro-content">
+							<div class="profile">
+	                            <img class="img-xs rounded-circle" src="{% static 'portapp/images/T.jpg' %}" alt="author">
+	                        </div>
+							<h2>
+	                            <span>Ogunsakin Anthony</span>
+	                        </h2>
+							<div class="menu">
+	                            <div class="social-icons">
+	                                <a href="https://www.facebook.com/tonysiroma">
+	                                    <i class="fa fa-facebook"></i>
+	                                </a>
+	                                <a href="https://twitter.com/Elekole_ofLagos?t=XvN0VIiA86VecfKXIfWRQ&s=09">
+	                                    <i class="fa fa-twitter"></i>
+	                                </a>
+	                                <a href="https://www.linkedin.com/in/ogunsakin-anthony-01a21419">
+	                                    <i class="fa fa-linkedin"></i>
+	                                </a>
+	                                <a href="https://www.instagram.com/babatundeey_anthony?r=nametag">
+	                                    <i class="fa fa-instagram"></i>
+	                                </a>
+	                            </div>
+	                            <!--Menu Items-->
+								<ul id="menu" class="list-unstyled menu_list">
+									<li class="menu-item ">
+										<a href="#home" class="active_item">home</a>
+									</li>
+									<li class="menu-item ">
+										<a href="#about">about me</a>
+									</li>
+									<li class="menu-item ">
+										<a href="#resume">my resume</a>
+									</li>
+									<li class="menu-item ">
+										<a href="#services">services</a>
+									</li>
+									<li class="menu-item ">
+										<a href="#portfolio">portfolio</a>
+									</li>
+									
+									<li class="menu-item">
+										<a href="#contact">contact</a>
+									</li>
+								</ul>
+							</div><!--.menu-->
+						</div><!--.intro-content-->
+					</div><!--.side-->
+	                <!--End Menu-->
+				</div><!-- /intro -->
+		
+
+
+				<div class="pag-e page-right">
+				    <div id="pt-main" class="pt-perspective page-inner">
+
+
+
+
+
+				    	<!--Start About Section-->
+						<section class="about pt-page" id="about">
+						    <div class="scroll__content"> 
+						        <div class="sec_title">
+						        	<h2>About Me</h2> 
+						        </div>        
+						        <div class="sec__content">
+						        	<div class="container">
+						        		<div class="row">
+											<div class="col-xs-12 col-sm-4">
+										    	<img src="{% static 'portapp/images/T.jpg' %}" class="full_width about__img" alt="author">
+											</div>
+											<div class="col-xs-12 col-sm-8">
+												<div class="heading">
+													<h2>OGUNSAKIN ANTHONY<br>Data Scientist and Business Analyst</h2>	
+												</div>
+												<p>I'm a ColdFusion developer based in Hawaii, specializing in User Interface Design and Development. I build clean, appealing, and functional interfaces which comply with the latest web standards. </p>
+												<p>I pride myself on fast and efficient website development. I provide a full range of services at affordable prices. I am in business to provide an efficient and affordable design experience.</p>
+												
+												
+												
+												<!--Social liXnks-->
+												<div class="social-icons">
+												    <a target="_blank" href="https://www.facebook.com/tonysiroma"><i class="fa fa-facebook-f"></i></a>
+												    <a target="_blank" href="https://twitter.com/Elekole_ofLagos?t=XvN0VIiA86VecfKXIfWRQ&s=09"><i class="fa fa-twitter"></i></a>
+												    <a target="_blank" href="https://www.instagram.com/babatundeey_anthony?r=nametag"><i class="fa fa-instagram"></i></a>
+												    <a target="_blank" href="https://www.linkedin.com/in/ogunsakin-anthony-01a21419"><i class="fa fa-linkedin"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<!-- Skills -->
+										<div class="row">
+											<div class="col-xs-12 col-sm-6">
+												<h3 class="subtitle margin-top-55">My Skills
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+												<div class="skills">
+
+											    
+
+											        <!-- Skill 2 -->
+											        <div class="skill">
+											            <span>HTML 5</span>
+											            <span class="percentage">92%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+											        <!-- Skill 3 -->
+											        <div class="skill">
+											            <span>CSS 3</span>
+											            <span class="percentage">87%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+													<div class="skill">
+											            <span>Php</span>
+											            <span class="percentage">87%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+
+												</div><!--.skills-->
+											</div>
+											<div class="col-xs-12 col-sm-6">
+												<h3 class="subtitle margin-top-55">My Skills
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+												<div class="skills">
+
+													<!-- Skill 1 -->
+											        <div class="skill">
+											            <span>Python</span>
+											            <span class="percentage">93%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+											        <!-- Skill 2 -->
+											        <div class="skill">
+											            <span> Advanced M-Excel</span>
+											            <span class="percentage">86%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+											        <!-- Skill 3 -->
+											        <div class="skill">
+											            <span>MySQL</span>
+											            <span class="percentage">72%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+												</div><!--.skills-->
+											</div>
+										</div>
+
+										<!--Testimonials-->
+										<h3 class="subtitle margin-top-55">Testimonials
+											<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+										        <g class="Web">
+										            <g class="Header">
+										                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+										            </g>
+										        </g>
+										    </svg>
+										</h3>
+										<div class="testimonials">
+										    <div class="arrows">
+										        <span class="pe-7s-angle-left prev-testi"></span>
+										        <span class="pe-7s-angle-right next-testi"></span>
+										    </div>
+										    <div class="owl">
+										        
+										        <!-- Testimonial 1 -->
+										        <div class="testimonial">
+										            <div class="testi-content">
+										                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est.</p>
+										            </div>
+										            <div class="img-wrapper">
+										                <img src="{% static 'portapp/images/photo2.jpg' %}" alt="">
+										            </div>
+										            <h4>Dr. Alan Titchneal</h4>
+										            <h5>Client</h5>
+										        </div>
+
+										        <!-- Testimonial 2 -->
+										        <div class="testimonial">
+										            <div class="testi-content">
+										                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est.</p>
+										            </div>
+										            <div class="img-wrapper">
+										                <img src="{% static 'portapp/images/post1.jpg' %}" alt="">
+										            </div>
+										            <h4>Dr. Jonnie Dobbs</h4>
+										            <h5>Client</h5>
+										        </div>
+
+										        <!-- Testimonial 3 -->
+										        <div class="testimonial">
+										            <div class="testi-content">
+										                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est.</p>
+										            </div>
+										            <div class="img-wrapper">
+										                <img src="{% static 'portapp/images/photo5.jpg' %}" alt="">
+										            </div>
+										            <h4>Jermey</h4>
+										            <h5>Client</h5>
+										        </div>
+
+										        <!-- Testimonial 4 -->
+										        <div class="testimonial">
+										            <div class="testi-content">
+										                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est.</p>
+										            </div>
+										            <div class="img-wrapper">
+										                <img src="{% static 'portapp/images/photo2.jpg' %}" alt="">
+										            </div>
+										            <h4>Dr. Pao-Shin Chu</h4>
+										            <h5>Client</h5>
+										        </div>
+										    
+										    </div><!--.owl-->
+										</div><!--.testimonials-->
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End About Section-->
+
+
+						<!--Start Resume Section-->
+						<section class="resume pt-page" id="resume">
+						    <div class="scroll__content">     
+						        <div class="sec_title">
+						        	<h2>My Resume</h2>
+						        </div>        
+						        <div class="sec__content">
+						        	<div class="container">
+						                    	
+										<div class="row">
+
+											<!--Education-->
+											<div class="col-xs-12 col-sm-6">
+												<h3 class="subtitle ">Education
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+												<div class="resume">
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2021- 2022</span>
+												        </div>
+												        <div class="content">
+												            <h4>ROME BUSINESS SCHOOL -Nigeria</h4>
+												            <p>M.Sc. -Data Science Management</p>
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2011- 2018</span>
+												        </div>
+												        <div class="content">
+												            <h4>FEDERAL UNIVERSITY OF AGRICULTURE -Abeokuta </h4>
+												            <p>B.Sc. -Computer Science</p>
+												        </div>
+												    </div>
+
+												    
+
+												</div>
+											</div>
+
+											<!--Experience-->
+											<div class="col-xs-12 col-sm-6 mob-margin-top-30">
+												<h3 class="subtitle">Experience
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+												<div class="resume">
+
+												    <div class="item">
+												        <div class="date">
+												            <span>Nov. 2022 - Present</span>
+												        </div>
+												        <div class="content">
+															<h5>IDEALFOUNT LIMITED -Agege, Lagos</h5><br>
+												            <h4>Data Analyst</h4>
+												            <p>Collecting and interpreting data with clear objectives in mind.</p>
+															<p>Presenting information using data visualiztion techniques</p>
+															<p>Mining and analyzing data from the company database to improve markketing and overall business goal</p>
+															<p>Undertake preprocessing of structured and unstructured datasets and variables</p>
+															<p>Using machine learning tools statistical techniques to produce solutions problems</p>
+															<p>Processing, cleaning and verifying the intergrity of data used in analysis</p>
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>Apr. 2021- Oct. 2022</span>
+												        </div>
+												        <div class="content">
+															<h5>SWIFT TELEPHONE NETWORK Ilupeju, Lagos</h5><br>
+												            <h4>Data Analyst (Intern)</h4>
+												            <p>Monitor and audit data quality</p>
+															<p>Produce and track key performance indicators</p>
+															<p>Identify areas to increase efficency and automation process</p>
+															<p>Presenting information generated from data by creating data dashboard, graph and visualization</p>
+
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>Apr. 2021- Feb. 2021</span>
+												        </div>
+												        <div class="content">
+															<h5>VATQUB GLOBAL RESOURCES LIMITED Abuleegba, Lagos</h5><br>
+												            <h4>Head Accounts</h4>
+												             <p>Plan for cash spend on different projects and manage company cash flow</p>
+															 <p>Generate finacial report statement and create presentation to key excutives</p>
+															 <p>Evaluate computerized accounting system and provide recommendation for IT teams for performance improvement</p>
+															 <p>Peform finacial analysis and reporting to management as needed</p>
+															 <p>Create company policies for great finacial health</p>
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>Nov. 2020- Feb 2021</span>
+												        </div>
+												        <div class="content">
+															<h5>FOLABIS TRADING LIMITED Ikeja, Lagos</h5><br>
+												            <h4>Business Analyst</h4>
+												            <p>Develope business case and mapping processes</p>
+															<p>Tracking the process of a project, resolving issues and providing updates to stakeholders</p>
+															<p>Ensuring continous delivery of bussiness information system solution that align with strategic goals</p>
+															<p>Overseeing the implementation of system and working closly with technical team</p>
+															<p>Collaborating with professionals on design and requirements</p>
+												        </div>
+												    </div>
+
+													<div class="item">
+												        <div class="date">
+												            <span>Sep. 2017- Oct. 2020</span>
+												        </div>
+												        <div class="content">
+															<h5>BRADFORD HOTELS LIMITED - Lagos</h5><br>
+												            <h4>Head, IT and Finance</h4>
+												            <p>Reconcile transaction by comparing and correcting data based on analysis</p>
+															<p>Consolidating and analyzing finacial data taking into consideration the company's goal</p>
+															<p>Develope finacial model and process analysis</p>
+															<p>Trained members of the IT team on network issues and finance team on cash management and intergrity</p>
+															<p>Establish and evaluate profit plan</p>
+												        </div>
+												    </div>
+
+													<div class="item">
+												        <div class="date">
+												            <span>May 2015- Sep. 2017</span>
+												        </div>
+												        <div class="content">
+															<h5>BRADFORD PHARMACEUTICAL LIMITED Agidingbi, Lagos State</h5><br>
+												            <h4>Intern System Auditor</h4>
+												            <p>Troubleshoot security and network problem</p>
+															<p>Perform regular audit testing and provide recommendations</p>
+															<p>Conduct efficient and effective IT audit procedures</p>
+															<p>Develope an efficient understanding of business and system process</p>
+															<p>Monitoring and maintaining KPIs</p>
+												        </div>
+												    </div>
+
+													<div class="item">
+												        <div class="date">
+												            <span>2011- 2015</span>
+												        </div>
+												        <div class="content">
+															<h5>GOLDEN CHANCE VENTURES Ikeja, Lagos State</h5><br>
+												            <h4>Management Information System Officer</h4>
+												            <p>Upgrade hardware and software</p>
+															<p>Conduct regular data backup to maintain data intergrity and data preservation</p>
+															<p>Troubleshoots for issues related to operating system, network issues and software upgrade and installation </p>
+															<p>Performing routine data checks</p>
+															<p>Analyzing and processing large scale information</p>
+												        </div>
+												    </div>
+
+												</div>
+											</div>
+										</div><!--.row-->
+
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End Resume Section-->
+
+
+						<!--Start Services Section-->
+						<section class="services pt-page" id="services">
+						    <div class="scroll__content">
+						        <div class="sec_title">
+						        	<h2>Services</h2>
+						        </div>
+						        <div class="sec__content">
+						        	<div class="container">
+						        		<div class="row">
+
+						        			<!--Service 1-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'portapp/images/bead.jpg' %}" alt="">   
+												            </div>
+												            <div class="service_content">
+												                <h3>Web Design and Development</h3>
+												                <p>I have 15 years of experience in website design and development, digital marketing, social media, seo, and mobile web development.</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+											<!--Service 2-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'portapp/images/photo4.jpg' %}" alt="">
+												            </div>
+												            <div class="service_content">
+												                <h3>Project Management</h3>
+												                <p>My experience in Coldfusion helps us me offer a wide range of products, services and consultancy in ColdFusion Web Application Development, and e-Commerce sites.</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+										</div>
+										<div class="row">
+
+											<!--Service 3-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'portapp/images/photo5.jpg' %}" alt="">       
+												            </div>
+												            <div class="service_content">
+												                <h3>Java Programming(SE)</h3>
+												               <p>Building your brand means gradually applying core values to your entire business. Your online presence, your marketing, your direct communication with consumers … all of these must abide by the rules established in your branding. </p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+											<!--Service 4-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'portapp/images/post1.jpg' %}" alt="">
+												            </div>
+												            <div class="service_content">
+												                <h3>Enterprise Risk Management Training</h3>
+												                <p>Html is one way through which webpages get presented. It stands for a hypertext markup language. For this HTML to work well it has building blocks, which are the elements that make it work perfectly.</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+										</div>		
+										<div class="row">
+
+											<!--Service 5-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'portapp/images/photo3.jpg' %}" alt="">     
+												            </div>
+												            <div class="service_content">
+												                <h3>Business Analysis</h3>
+												                <p>MAll the web projects that I build are responsive design. This makes the websites to work seamlessly on mobile devices!</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+											<!--Service 6-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'portapp/images/photo2.jpg' %}" alt="">       
+												            </div>
+												            <div class="service_content">
+												                <h3>Leadership and Management Skill</h3>
+												                <p>I only develop websites using the latest technology. Having a responsive website refers to the technology in the code that allows your site to respond to the device you are using to view the website</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+										</div>
+
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End Services Section-->
+
+
+						<!--Start Portfolio Section-->
+						<section class="portfolio_sec pt-page" id="portfolio">
+							<div class="scroll__content">
+						        <div class="sec_title">
+						        	<h2>Portfolio</h2>
+						        </div>        
+								<div class="sec__content">
+								    <div class="container">
+										<div class="portfolio_sec">
+											<div class="portfolio">
+											    <ul class="list-unstyled ul-filter">
+											        <li data-filter="*" class="active_filter">all</li>
+											        <li data-filter=".coding">coding</li>
+											        <li data-filter=".design">design</li>
+													<li data-filter=".logo">javaScipt</li>		    
+											    </ul>
+											</div>
+
+											<div class="row grid portfolio">
+
+												<!--project 1 (Project popup)-->
+												<div class="col-xs-12 col-sm-6 item grid-item design">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="{% static 'portapp/images/work-1.jpg' %}" alt="" />   
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">
+												                <a class="popup-with-zoom-anim ajax_popup" href="portfolio-ajax-popup/project-1.html">
+												                    <h3>Ogunsakin Anthony</h3>
+												                    <p>design</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-folder"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+
+												    </div>
+												</div>
+												
+												<!--project 2 (Project popup)-->
+												<div class="col-xs-12 col-sm-6 item grid-item coding">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="{% static 'portapp/images/work-2.jpg' %}" alt="" />   
+												        </div>
+
+
+												    </div>
+												</div>
+												
+												<!--project 3 (Project popup)-->
+												<div class="col-xs-12 col-sm-6 item grid-item design">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="{% static 'portapp/images/work-3.jpg' %}" alt="" />   
+												        </div>
+												    </div>
+												</div>
+
+												<!--project 4 (Project popup)-->
+												<div class="col-xs-12 col-sm-6 item grid-item logo">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="{% static 'portapp/images/work-6.jpg' %}" alt="" />   
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">
+												                <a class="popup-with-zoom-anim ajax_popup" href="portfolio-ajax-popup/project-4.html">
+												                    <h3>Digital Clock</h3>
+												                    <p>javaScript</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-folder"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+
+												    </div>
+												</div>
+
+												<!--project 5 (Project popup)-->
+												<div class="col-xs-12 col-sm-6 item grid-item logo">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="{% static 'portapp/images/image_4.jpg' %}" alt="" />   
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">
+												                <a class="popup-with-zoom-anim ajax_popup" href="portfolio-ajax-popup/project-5.html">
+												                    <h3>Dice Game</h3>
+												                    <p>javaScript</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-folder"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+
+												    </div>
+												</div>
+
+												<!--project 6 (Project popup)-->
+												<div class="col-xs-12 col-sm-6 item grid-item logo">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="{% static 'portapp/images/image_2.jpg' %}" alt="" />   
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">
+												                <a class="popup-with-zoom-anim ajax_popup" href="portfolio-ajax-popup/project-6.html">
+												                    <h3>Music Player</h3>
+												                    <p>javaScript</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-folder"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+
+												    </div>
+												</div>
+												<!--project 8 (Project popup)-->
+												<div class="col-xs-12 col-sm-6 item grid-item logo">
+													<div class="project_content">
+															<div class="my__img">
+																	<img src="{% static 'portapp/images/image_4jpg' %}" alt="" />   
+															</div>
+
+															<div class="info">
+																	<div class="info-content">
+																			<a class="popup-with-zoom-anim ajax_popup" href="portfolio-ajax-popup/project-8.html">
+																					<h3>Rock Paper Sciccors</h3>
+																					<p>javaScript</p>
+																					<div class="icon">
+																							<div class="wrapper">
+																									<i class="pe-7s-folder"></i>
+																							</div>
+																					</div>
+																			</a>
+																	</div>
+															</div>
+
+													</div>
+											</div>
+												
+												
+
+												
+
+												
+
+												
+
+											</div><!--.row-->
+										</div><!--.portfolio_sec-->
+								    </div><!--.container-->
+								</div><!--.sec__content-->
+							</div><!--.scroll__content-->
+						</section>
+						 <!--End Portfolio Section-->
+
+
+						<!--Start Blog Section-->
+						<section class="blog pt-page" id="blog">
+						    <div class="scroll__content">
+						        <div class="sec_title">
+						        	<h2>My Blog</h2>
+						        </div>        
+						        <div class="sec__content">
+						        	<div class="container">
+										<div class="blog">
+										    <div class="row posts-row blog-grid">
+
+										    	<!-- article 1 -->
+										        <div class="col-sm-6 col-xs-12 grid-item">
+										            <div class="item">
+										                <a href="single-blog.html">
+										                    <div class="blog__img">
+										                        <i class="pe-7s-news-paper"></i>
+										                        <img src="{% static 'portapp/images/person_4.jpg' %}" alt="">
+										                    </div>
+										                </a>
+										                <div class="content matchH">
+										                    <p class="info">September 1, 2019</p>
+										                    <h3>
+										                        <a href="single-blog.html">The top 10 books in the world</a>
+										                    </h3>
+										                </div>
+										            </div>
+										        </div>
+
+										        <!-- article 2 -->
+										        <div class="col-sm-6 col-xs-12 grid-item">
+										            <div class="item">
+										                <a href="single-blog.html">
+										                    <div class="blog__img">
+										                        <i class="pe-7s-news-paper"></i>
+										                        <img src="{% static 'portapp/images/person_1.jpg' %}" alt="">
+															</div>
+										                </a>
+										                <div class="content matchH">
+										                    <p class="info">August 23, 2019</p>
+										                    <h3>
+										                        <a href="single-blog.html">100 Ways to be more happy</a>
+										                    </h3>
+										                </div>
+										            </div>
+										        </div>
+
+										        <!-- article 3 -->
+										        <div class="col-sm-6 col-xs-12 grid-item">
+										            <div class="item">
+										                <a href="single-blog.html">
+										                    <div class="blog__img">
+										                        <i class="pe-7s-news-paper"></i>
+										                        <img src="{% static 'portapp/images/person_2.jpg' %}" alt="">
+										                    </div>
+										                </a>
+										                <div class="content matchH">
+										                    <p class="info">August 22, 2019</p>
+										                    <h3>
+										                        <a href="single-blog.html">100 Ways to be more happy</a>
+										                    </h3>
+										                </div>
+										            </div>
+										        </div>
+
+										        <!-- article 4 -->
+										        <div class="col-sm-6 col-xs-12 grid-item">
+										            <div class="item">
+										                <a href="single-blog.html">
+										                    <div class="blog__img">
+										                        <i class="pe-7s-news-paper"></i>
+										                        <img src="{% static 'portapp/images/person_3.jpg' %}" alt="">
+										                    </div>
+										                </a>
+										                <div class="content matchH">
+										                    <p class="info">August 10, 2019</p>
+										                    <h3>
+										                        <a href="single-blog.html">The top 10 books in the world</a>
+										                    </h3>
+										                </div>
+										            </div>
+										        </div>
+										        
+										    </div><!--.row-->
+										</div><!--.blog-->
+
+										<a href="#" target="_self" class="btn load-more">Load More</a>
+
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End Blog Section-->
+
+
+						<!--Start Contact Section-->
+						<section class="contact pt-page" id="contact">
+						    <div class="scroll__content"> 
+						        <div class="sec_title">
+						        	<h2>Contact Me</h2>
+						        </div>       
+						        <div class="sec__content">
+						        	<div class="container">
+						        		<div class="row">
+											<div class="col-xs-12 col-sm-5">
+											
+												<h3 class="subtitle ">Location
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+					                            <!-- google map -->
+					                            <div id="map" style="min-height: 400px">
+					                            </div>
+
+											</div>
+											<div class="col-xs-12 col-sm-7">
+												
+												<h3 class="subtitle ">Contact Form
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+		                                        <div class="contact_form">
+		                                            <form action="send.php" method="post">
+		                                                <input placeholder="Name" name="name" type="text" class="form-control">
+		                                                <input placeholder="E-mail" name="email" type="email" class="form-control">
+		                                                <textarea placeholder="Message" name="message" class="form-control"></textarea>
+		                                               
+
+														
+														<button class="submit btn">Send Message</button>
+
+		                                                <!--Contact form message-->
+		                                                <div class="msg_success"><p>Your message has been sent. Thank you!</p></div>
+		                                                <div class="msg_error"><p>Sorry your message can not be sent.</p></div>
+		                                                <!--End contact form message-->
+
+		                                            </form>
+		                                        </div>
+
+											</div>
+										</div><!--.row-->
+										<div class="contact-info margin-top-55 text-center">
+											<div class="row">
+												<div class="col-sm-4">
+													<div class="item">
+														<i class="pe-7s-map-marker pe-3x pe-va icon"></i>
+														<p>Haliewa, HI</p>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<div class="item">
+														<i class="pe-7s-mail pe-3x pe-va icon"></i>
+														<p><a href="mailto:anthonysiroma@gmail.com">anthonysiroma@gmail.com</a></p>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<div class="item">
+														<i class="pe-7s-call pe-3x pe-va icon"></i>
+														<p>08066982178</p>
+													</div>
+												</div>
+											</div>
+										</div>
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End Contact Section-->
+
+
+				    </div><!--.page-inner-->
+				</div><!--.page-right-->
+			</div><!--.splitlayout-->
+		</div><!-- #page -->
+
+
+		<script src="{% static 'portapp/js/jquery.min.js' %}"></script>
+		<script src="{% static 'portapp/js/jquery.matchHeight-min.js' %}"></script>
+		<script src="{% static 'portapp/js/modernizr-custom.js' %}"></script>
+		<script src="{% static 'portapp/js/pagetransitions.js' %}"></script>
+		<script src="{% static 'portapp/js/typed.min.js' %}"></script>
+		<script src="{% static 'portapp/js/slick.js' %}"></script>
+		<script src="{% static 'portapp/js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'portapp/js/imagesloaded.pkgd.min.js' %}"></script>
+		<script src="{% static 'portapp/js/isotope.pkgd.min.js' %}"></script>
+		<script src="{% static 'portapp/js/jquery.fittext.js' %}"></script>
+		<script src="{% static 'portapp/js/jquery.magnific-popup.min.js' %}"></script>
+        <!-- Google maps -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCABUipchxBy5ubGg0ajToD30sX9KhcCBQ"></script>
+		<script src="{% static 'portapp/js/custom.js' %}"></script>
+
+<!-- Default Statcounter code for My portfolio
+http://johnbarrett.net -->
+<script type="text/javascript">
+	var sc_project=12708422; 
+	var sc_invisible=1; 
+	var sc_security="c82a5ab9"; 
+	</script>
+	<script type="text/javascript"
+	src="https://www.statcounter.com/counter/counter.js"
+	async></script>
+	<noscript><div class="statcounter"><a title="Web Analytics"
+	href="https://statcounter.com/" target="_blank"><img
+	class="statcounter"
+	src="https://c.statcounter.com/12708422/0/c82a5ab9/1/"
+	alt="Web Analytics"
+	referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+	<!-- End of Statcounter Code -->
+
+	</body>
+</html>
